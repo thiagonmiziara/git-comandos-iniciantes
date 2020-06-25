@@ -103,4 +103,4 @@ Os demais **push** não precisam dessa informação
 
 Sinta-se a vontade para adicionar mais informações ou realizar correções. 
 
-[**Contato**](thiagonmiziara@gmail.com)
+[**Contato**](https://www.linkedin.com/feed/)
