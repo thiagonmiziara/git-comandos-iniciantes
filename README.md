@@ -7,7 +7,7 @@ ______________________________
    
    Você pode usar os comandos especificos exemplo:
 
-   ```
+   ```js
    git help add
    git help commit
    git help <qualquer_comando_git>
@@ -17,7 +17,7 @@ ______________________________
 
 * configurando usuário
 
-`git config --global user.name "Thiago Miziara"`
+```git config --global user.name "Thiago Miziara"```
 
 * configurando email
 
@@ -55,52 +55,52 @@ git rm -r diretorio
 
 ###### Exibir histórico modificação de um arquivo
 
-	git log --diff-filter=M -- <caminho_do_arquivo>
+`	git log --diff-filter=M -- <caminho_do_arquivo>`
 
 
 ###### Exibir histório de um determinado autor
 
-	git log --author
+`git log --author`
 
 ###### Enviar arquivos/diretórios para o repositório remoto
 
 O primeiro **push** de um repositório deve conter o nome do repositório remoto e o branch.
 
-	git push -u origin master
-	
+`git push -u origin master`
+
 Os demais **push** não precisam dessa informação
 
-	git push
-	
+`git push`
+
 
 ###### Atualizar repositório local de acordo com o repositório remoto
 
-	git pull
+`git pull`
 
 ### Tags
 
 ###### Criando uma tag leve
 
-	git tag vs-1.1
+`git tag vs-1.1`
 
 ###### Criando uma tag anotada
 
-	git tag -a vs-1.1 -m "Minha versão 1.1"
+`git tag -a vs-1.1 -m "Minha versão 1.1"`
 
-###### Criar um novo branch 
+###### Criar um novo branch
 
-	git checkout -b nova1
-	
+`git checkout -b nova1`
+
 ###### Voltar para o branch principal (master)
 
-	git checkout master
+`git checkout master`
 
- ###### Apagando um branch
+###### Apagando um branch
 
-	git branch -d nova1
+`git branch -d nova1`
 
 # Contribuições
 
-Sinta-se a vontade para adicionar mais informações ou realizar correções. 
+Sinta-se a vontade para adicionar mais informações ou realizar correções.
 
 [**Contato**](https://www.linkedin.com/in/thiago-miziara-92a85b6a/)
